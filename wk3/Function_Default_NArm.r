@@ -2,7 +2,6 @@
 # Follow Roger Peng's examples
 # Simple addition with two input arguments
 
-
 #Note only the last statement in the function will be returned
 f<-function(a,b){
   a^2
@@ -46,6 +45,8 @@ column_mean<-function(y,removeNA=TRUE){
   means
 }
 
+#z<-10
+#See difference between assigning value and not assigning value to z
 fc<-function(x,y){
   x*2+y/z
 }
