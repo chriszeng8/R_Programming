@@ -12,3 +12,6 @@ str(lm)
 # b. str can also quickly give a short summary output of any R object.
 x<-list(a=1:4,b=8:12,c=16:20)
 str(x)
+
+# 4. list all objects/variables in your local workspace.
+ls()
