@@ -1,7 +1,7 @@
 # Keys in datatable can fast track the query process
+library(data.table)
 
 # Example 1: Use keys to subset tables
-library(data.table)
 # Create a data table
 DT<-data.table(x=rep(c("a","b","c"),each=100),y=rnorm(300))
 # Set x as the key column (like SQL)
