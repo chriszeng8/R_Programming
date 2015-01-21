@@ -23,3 +23,10 @@ ls()
 y<-rbinom(10,1,0.5)
 as.data.frame(table(y))
 
+# 7. %in% used as == for subsetting with multiple equality criteria
+set.seed(1)
+DF<-data.frame(x=sample(1:10,8,replace=T),y=rep(letters[1:4],each=2),c=16:23)
+DF# DF$y %in% c("a","c") is a logical statement that tells which one is good and 
+DF[DF$y %in% c("a","c"),]
+
+# 8. read.fwf: read fixed width file
