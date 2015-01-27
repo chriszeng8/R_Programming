@@ -30,3 +30,7 @@ DF# DF$y %in% c("a","c") is a logical statement that tells which one is good and
 DF[DF$y %in% c("a","c"),]
 
 # 8. read.fwf: read fixed width file
+
+# 9. extract numeric from text
+library(tidyr)
+num<-extract_numeric("class5")
